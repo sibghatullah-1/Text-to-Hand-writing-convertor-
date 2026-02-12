@@ -38,9 +38,7 @@ AVAILABLE_FONTS = {
 
 # Backgrounds
 BUILTIN_BGS = {
-    "Lined Paper": resource_path("backgrounds/img1.jpg"),
-    "Dark Mode": resource_path("backgrounds/img2.jpg"),
-    "Plain White": resource_path("backgrounds/img3.jpg")
+    "Lined Paper": resource_path("backgrounds/img1.jpg")
 }
 
 # --- 3. GENERATION ENGINE ---
@@ -391,4 +389,5 @@ class App(ctk.CTk):
 
 if __name__ == "__main__":
     app = App()
+
     app.mainloop()
